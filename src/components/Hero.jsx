@@ -36,12 +36,9 @@ const SmileArcArt = () => (
         Dencity Dental care
       </p>
 
-      <svg
-        viewBox="0 0 320 200"
-        className="w-full mt-4"
-        role="file1.svg"
-        aria-label="Illustration of a dental arch traced by a smile curve"
-      >
+     <img
+     className="w-full h-auto mt-6 rounded-2xl"
+     src="file1.svg" alt="" />
         {/* Background arch */}
         <path
           d="M20 150C90 30 230 30 300 150"
