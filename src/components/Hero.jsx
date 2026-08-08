@@ -39,7 +39,7 @@ const SmileArcArt = () => (
       <svg
         viewBox="0 0 320 200"
         className="w-full mt-4"
-        role="img"
+        role="file1.svg"
         aria-label="Illustration of a dental arch traced by a smile curve"
       >
         {/* Background arch */}
