@@ -39,7 +39,7 @@ const Avatar = ({ name, tone }) => {
       className="relative w-full aspect-[4/5] rounded-2xl flex items-center justify-center overflow-hidden"
       style={{ background: `linear-gradient(155deg, ${tone[0]}, ${tone[1]})` }}
     >
-      <img src="/public/doctor.webp" alt="" />
+      <img src="doctor.svg" alt={initials} />
     </div>
   );
 };
