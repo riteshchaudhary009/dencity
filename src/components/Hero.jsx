@@ -37,7 +37,7 @@ const SmileArcArt = () => (
       </p>
 
      <img
-     className="w-full h-auto mt-6 rounded-2xl"
+     className="w-full h-auto mt-2 rounded-2xl"
      src="file1.svg" alt="" />
         {/* Background arch */}
         <path
@@ -87,7 +87,7 @@ const SmileArcArt = () => (
             </g>
           );
         })}
-      </svg>
+  
 
       <div className="mt-6 flex items-center justify-between font-mono text-[0.65rem] uppercase tracking-[0.15em] text-teal-300">
         <span>Tooth 01</span>
