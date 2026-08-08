@@ -8,7 +8,7 @@ import React from "react";
 export const LogoMark = ({ className = "w-19 h-12" }) => (
   <img
     className={`inline-block ${className}`}
-    src="/public/logo.png"
+    src="/assets/logo.png"
     alt="Dencity logo mark"
   />
 );
