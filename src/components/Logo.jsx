@@ -13,7 +13,7 @@ export const LogoMark = ({ className = "w-19 h-12" }) => (
   />
 );
 
-const Logo = ({ className = "", markClassName = "w-16 h-12", showTagline = true, light = false }) => (
+const Logo = ({ className = "", markClassName = "w-16 h-14", showTagline = true, light = false }) => (
   <div className={`flex items-center gap-2.5 ${className}`}>
     <LogoMark className={markClassName} />
     <div className="leading-none">

@@ -10,7 +10,7 @@ import {
 /* Decorative underline */
 const ArcUnderline = () => (
   <span className="relative inline-block">
-    lives
+    Smile
     <svg
       className="absolute left-0 -bottom-2 w-full h-3"
       viewBox="0 0 100 12"
@@ -132,9 +132,9 @@ const Hero = () => {
           </div>
 
           <h1 className="mt-6 font-display text-4xl font-semibold leading-[1.08] text-teal-950 sm:text-5xl lg:text-[3.4rem]">
-            Dental care,
+           Dencity Dental care,
             <br className="hidden sm:block" />
-            built for how <ArcUnderline /> lives.
+            built for how <ArcUnderline /> Beauty.
           </h1>
 
           <p className="mt-6 max-w-md text-lg text-ink-soft">
