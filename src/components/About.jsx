@@ -44,9 +44,9 @@ const About = () => {
             </p>
             <div className="mt-8 grid grid-cols-3 gap-6 max-w-sm">
               {[
-                ["7 yrs", "In Kathmandu"],
-                ["12", "Dentists on staff"],
-                ["18k+", "Checkups done"],
+                ["7 yrs", "In Bharatpur"],
+                ["2", "Dentists on staff"],
+                ["1k+", "Checkups done"],
               ].map(([stat, label]) => (
                 <div key={label}>
                   <p className="font-display text-2xl font-semibold text-teal-700">{stat}</p>
